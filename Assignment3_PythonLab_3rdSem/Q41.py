@@ -1,0 +1,7 @@
+empno = int(input("Enter employee number: "))
+name = input("Enter employee name: ")
+salary = float(input("Enter employee salary: "))
+info = (empno, name, salary)
+print("Employee Number:", info[0])
+print("Employee Name:", info[1])
+print("Employee Salary:", info[2])
